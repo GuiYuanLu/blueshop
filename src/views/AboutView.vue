@@ -3,6 +3,7 @@
     <button @click="userinfo.age++">改变</button>
     <h1>{{ userinfo.age }}</h1>
     <h2>测试</h2>
+    2222
   </div>
 </template>
 

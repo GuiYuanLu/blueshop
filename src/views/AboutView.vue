@@ -18,7 +18,7 @@
 </style>
 
 <script setup>
-import { watch, reactive, ref } from 'vue'
+import { watch, reactive } from 'vue'
 
 const userinfo = reactive({
   name: 'xixi',

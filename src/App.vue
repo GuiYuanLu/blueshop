@@ -1,20 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
-import MySon from './components/MySon.vue'
-
-const getMsg = (message) => {
-  console.log(message.name)
-}
-
-// ref使用
-
-const handleClick = () => {
-  SonComRef.value.setCount(100)
-}
-
-const SonComRef = ref(null)
 </script>
 
 <template>
@@ -32,10 +18,6 @@ const SonComRef = ref(null)
   </header>
 
   <RouterView />
-  <MySon msg="Ray"></MySon>
-  <MySon @say-msg="getMsg"></MySon>
-  <MySon ref="SonComRef"></MySon>
-  <button @click="handleClick">点击我把ref的值改为100</button>
 </template>
 
 <style scoped>

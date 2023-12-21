@@ -8,6 +8,10 @@
 </template>
 <script setup>
 import { RouterView } from 'vue-router'
+// import { onMounted } from 'vue'
+// onMounted(() => {
+//   document.body.style.setProperty('--el-color-primary', '#21252d')
+// })
 </script>
 
 <style lang="scss"></style>

@@ -2,7 +2,7 @@
  * @Author: Ray
  * @Date: 2023-12-21 10:10:27
  * @LastEditors: Ray
- * @LastEditTime: 2023-12-22 10:39:46
+ * @LastEditTime: 2023-12-22 10:59:43
  * @FilePath: /blueshop/src/App.vue
  * @Description: 
  * 
@@ -11,9 +11,11 @@
 <template>
   <div>
     <h1 class="red">hello world</h1>
-    <RouterView />
+
     <h2>Ray</h2>
     <el-button type="primary" @click="getGoodsList">Primary</el-button>
+
+    <RouterView />
   </div>
 </template>
 <script setup>

@@ -2,9 +2,9 @@
  * @Author: Ray
  * @Date: 2023-11-09 14:26:26
  * @LastEditors: Ray
- * @LastEditTime: 2023-12-22 11:14:22
+ * @LastEditTime: 2023-12-22 11:44:22
  * @FilePath: /blueshop/src/router/index.js
- * @Description:
+ * @Description:为项目搭建路由
  *
  * Copyright (c) 2023 by Ray, All Rights Reserved.
  */

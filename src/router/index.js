@@ -2,7 +2,7 @@
  * @Author: Ray
  * @Date: 2023-11-09 14:26:26
  * @LastEditors: Ray
- * @LastEditTime: 2023-12-22 11:01:10
+ * @LastEditTime: 2023-12-22 11:14:22
  * @FilePath: /blueshop/src/router/index.js
  * @Description:
  *
@@ -16,8 +16,14 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'Layout',
-      component: Layout
+      component: Layout,
+      children: [
+        {
+          path: '',
+          name: 'Index',
+          component: () => import('@/views/Home/index.vue')
+        }
+      ]
     },
     {
       path: '/login',
